@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para minha plim,plim</title>
+     <link rel="stylesheet" href="style.css">
+     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+     <link
+     rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="logo">
+            <img src="logotipo-da-netflix-icon-svg-download-png-14540200.webp" alt="" width="70px">
+        </div>
+        <nav>
+          <a href="#">Inicio</a>
+          <a href="#">Series</a>
+          <a href="#">Filmes</a>
+          <a href="#">Minha lista</a>
+        </nav>
+
+    </header>
+    <section class="banner">
+        <div class="conteudo">
+        <p class="titulo"> João e Ana</p>
+        <p class detalhes>
+            <span>12/06,2 TEMPORADA</span>
+            <span class="stars">
+            <i class="fa-solid fa-star" style="color: rgb(193, 26, 120);"></i>
+             <i class="fa-solid fa-star" style="color: rgb(193, 26, 120);"></i>
+             <i class="fa-solid fa-star" style="color: rgb(193, 26, 120);"></i>
+             <i class="fa-solid fa-star" style="color: rgb(193, 26, 120);"></i>
+             <i class="fa-solid fa-star" style="color: rgb(193, 26, 120);"></i>
+            </span>
+            <p class="descricao">
+
+             Oi, Plim. Estou passando aqui para te desejar um feliz Dia dos Namorados e expressar um pouco da minha gratidão.
+
+            Nunca passou pela minha cabeça fazer um site para alguém, mas estou aqui fazendo isso por você. Em vez de uma cartinha, fiz isso para você kkkk.
+
+            Eu te amo, meu amor. Sou o homem mais feliz do mundo quando estou ao seu lado. Esta é a segunda temporada de muitas que ainda estão por vir.
+
+            Te amo, Plim. ❤️
+
+            </p>
+            <div class="botoes">
+              <button> <i class="fa-solid fa-play"></i>ontinuar</button>
+              <button>  <i class="fa-solid fa-star"></i>favorito</button>
+            </div>
+        </p>
+        </div>
+
+    </section class = "momentos">
+    <h2>Nossos momentos</h2>
+    <div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+        <div class="swiper-slide"><img src="fotos/1foto.jpeg"></div>
+        <div class="swiper-slide"><img src="fotos/2 foto.jpeg"></div>  
+        <div class="swiper-slide"><img src="fotos/4 foto.jpeg"></div>
+        <div class="swiper-slide"><img src="fotos/5 foto.jpg"></div>
+        <div class="swiper-slide"><img src="fotos/6 foto.jpg"></div>
+         <div class="swiper-slide"><img src="fotos/7 Foto.jpg"></div>
+        <div class="swiper-slide"><img src="fotos/8 foto.jpg"></div>
+        <div class="swiper-slide"><img src="fotos/9 foto.jpg"></div>
+        <div class="swiper-slide"><img src="fotos/10 foto.jpg"></div>
+    ...
+    </div>
+
+    </div>  
+
+    <section>
+
+    </section>
+    <footer>
+        2026 - joão e ana
+    </footer>
+   
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+    <script>
+                const swiper = new Swiper('.swiper', {
+       loop: true,
+       autoplay: {
+        delay: 2500,
+        disableOninterection:false,
+       },
+       
+       slidesPerView: 2,
+       spaceBeetween: 10,
+       loop:true,
+       breakPoints: {
+        600: {
+            loop:true,
+            slidesPerView:3,
+            spaceBeetween:15,
+        }
+       }
+
+    });
+        </script>
+</body>
+</html>
